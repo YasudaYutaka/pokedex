@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &-logo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding-top: 10px;
+    transform: scale(1.2) translateY(10%);
+  }
+}
